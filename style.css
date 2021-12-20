@@ -1023,10 +1023,17 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .row-no-gutters {
+        display: flex;
+        justify-content: space-around;
+    }
+    .citation {
+        width: 350px;
     }
 }
 
